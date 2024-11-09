@@ -1,0 +1,104 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(to bottom, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.picture-area {
+  background-image: url(download.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+
+.login-box {
+  padding: 20px;
+}
+
+.login-box h2 {
+  margin: 0 0 15px;
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input-group input[type="text"]:focus,
+.input-group input[type="password"]:focus {
+  border-color: #6a11cb;
+  outline: none;
+}
+
+.input-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.input-group button {
+  width: 100%;
+  padding: 12px;
+  background: #6a11cb;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+  background: #5b0fbf;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #6a11cb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.forgot-password a:hover {
+  color: #5b0fbf;
+  text-decoration: underline;
+}
