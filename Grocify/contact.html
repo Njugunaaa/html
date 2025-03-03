@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Grocify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <nav class="bg-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-center space-x-4">
+            <a href="home.html" class="text-gray-700 hover:text-gray-900">Home</a>
+            <a href="about.html" class="text-gray-700 hover:text-gray-900">About Us</a>
+            <a href="features.html" class="text-gray-700 hover:text-gray-900">Our Features</a>
+            <a href="contact.html" class="text-gray-700 hover:text-gray-900">Contact Us</a>
+        </div>
+    </nav>
+    <div class="container mx-auto p-8 text-center">
+        <h1 class="text-3xl font-semibold mb-4">Contact Us</h1>
+        <p class="text-lg mb-6">Reach out to us at <a href="mailto:support@grocify.com" class="text-blue-500">support@grocify.com</a></p>
+        <p>You can also fill out the form below:</p>
+        <form class="mt-8 max-w-md mx-auto">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                <input type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                <input type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-6">
+                <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                <textarea id="message" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
